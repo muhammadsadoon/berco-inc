@@ -244,9 +244,11 @@ body {
     align-items: center;
     justify-content: center;
 }
-.product_chart_show .item h2{
+
+.product_chart_show .item h2 {
     font-size: 35px;
 }
+
 .product_chart_show .item:last-child {
     border-right: none;
 }
@@ -277,7 +279,7 @@ body {
     }
 
     .left_content .center_content video {
-        height: 40vh;
+        height: 50vh;
         width: 500px;
     }
 
@@ -335,9 +337,8 @@ body {
 
     }
 
-    .left_content .center_content video {
-        height: 1000px !important;
-        width: 60vw;
+    .center_content video{
+        transform: translate(-50%, -50%) scale(1.5);
     }
 
     .navbar {
