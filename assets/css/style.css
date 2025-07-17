@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #050505;
 }
 
 * {
@@ -77,14 +77,16 @@ body {
     min-height: 100vh;
     width: 100%;
     position: relative;
-    max-width: 1024px;
-    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero_section {
     min-height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #050505;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -252,7 +254,66 @@ body {
 .product_chart_show .item:last-child {
     border-right: none;
 }
-
+.partners{
+    min-height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: "light";
+}
+.heading b{
+    font-weight: 800;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+    overflow: hidden;
+    padding: 50px;
+    gap: 10px;
+}
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 300px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    height: 400px;
+    border: 1px solid #3b3b3b;
+}
+.slide .headSlider{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    position: relative;
+}
+.slide .headSlider img{
+    height: 200px;
+    width: 150px;
+    position: relative;
+}
+.slide .headSlider::after{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    left: 0px;
+    top: 0px;
+    background-image: radial-gradient(transparent,#000000);
+}
 @media (max-width:900px) {
     .navbar ul {
         display: none;
