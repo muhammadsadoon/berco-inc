@@ -459,9 +459,10 @@ body {
         flex-direction: column;
     }
 
-    .contactSection .box:nth-child(1){
+    .contactSection .box:nth-child(1) {
         width: 80%;
     }
+
     .contactSection .box:nth-child(2) {
         width: 100%;
     }
@@ -524,6 +525,12 @@ body {
 }
 
 @media (max-width:500px) {
+
+    .mindsetSection video {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
 
     .slide {
         width: 100% !important;
