@@ -349,7 +349,7 @@ body {
     content: "";
     left: 0px;
     top: 0px;
-    background-image: radial-gradient(transparent, #0000003d);
+    background-image: radial-gradient(transparent, #0c0c0c38);
 }
 
 .slide .contentSlide {
